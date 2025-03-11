@@ -59,21 +59,21 @@ $route['our-team'] = 'pages/ourTeam';
 $route['contact-us'] = 'pages/contact';
 $route['blog'] = 'pages/blog'; // Show all blogs
 $route['blog/(:any)'] = 'pages/blog_detail/$1'; // Show a specific blog by ID
-$route['submit_contact'] = 'admin/Forms/submit_form';
+$route['submit_contact'] = 'Admin/Forms/submit_form';
 
-$route['admin/blog'] = 'admin/Blog/index'; // List all blogs
+$route['admin/blog'] = 'Admin/Blog/index'; // List all blogs
 $route['admin/blog/create'] = 'Admin/Blog/create'; // Create new blog
 $route['admin/blog/store'] = 'Admin/Blog/store'; // Store blog data
 $route['admin/blog/edit/(:num)'] = 'Admin/Blog/edit/$1'; // Edit blog
 $route['admin/blog/update/(:num)'] = 'Admin/Blog/update/$1'; // Update blog
 $route['admin/blog/delete/(:num)'] = 'Admin/Blog/delete/$1'; // Delete blog
 
-$route['admin/contacts'] = 'admin/Contacts/index'; // List all blogs
+$route['admin/contacts'] = 'Admin/Contacts/index'; // List all blogs
 $route['admin/contacts/edit/(:num)'] = 'Admin/Contacts/edit/$1'; // Edit blog
 $route['admin/contacts/update/(:num)'] = 'Admin/Contacts/update/$1'; // Update blog
 $route['admin/contacts/delete/(:num)'] = 'Admin/Contacts/delete/$1'; // Delete blog
 
-$route['admin/settings'] = 'admin/Settings/index'; // List all blogs
-$route['admin/save_settings'] = 'admin/Settings/save'; // List all blogs
+$route['admin/settings'] = 'Admin/Settings/index'; // List all blogs
+$route['admin/save_settings'] = 'Admin/Settings/save'; // List all blogs
 
 
