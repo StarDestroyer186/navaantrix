@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3307
--- Generation Time: Mar 07, 2025 at 06:58 AM
+-- Generation Time: Mar 13, 2025 at 06:27 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -94,6 +94,27 @@ INSERT INTO `settings` (`id`, `key`, `value`) VALUES
 (2, 'company_phone', '9011001818'),
 (3, 'company_address', 'Office No. 4, Shivam Complex, Lalit Estate, Baner Road, Baner, Pune, Maharashtra - 411045');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `created_at` datetime DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `password`, `email`, `created_at`) VALUES
+(1, 'admin', '$2a$12$0jYxGYgJk5qgrHAOhNsUfuuCnE9iQjoHNkLPucmahRbdf5UGoYkoS', 'admin@example.com', '2025-03-12 11:12:45');
+
 --
 -- Indexes for dumped tables
 --
@@ -118,6 +139,13 @@ ALTER TABLE `settings`
   ADD UNIQUE KEY `key` (`key`);
 
 --
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `username` (`username`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -138,6 +166,12 @@ ALTER TABLE `contact_form`
 --
 ALTER TABLE `settings`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

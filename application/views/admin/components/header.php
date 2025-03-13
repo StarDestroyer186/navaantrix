@@ -51,12 +51,13 @@
 <body>
 
     <!-- Top Navbar -->
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-            <button class="btn btn-outline-light" id="sidebarToggle">☰</button>
-            <a class="navbar-brand ms-3" href="<?= base_url('/') ?>">My Website</a>
-        </div>
-    </nav>
+	<nav class="navbar navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<button class="btn btn-outline-light" id="sidebarToggle">☰</button>
+			<a class="navbar-brand ms-3" href="<?= base_url('/') ?>">My Website</a>
+			<a class="btn btn-outline-light ms-auto" href="<?= base_url('logout') ?>">Logout</a>
+		</div>
+	</nav>
 
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">

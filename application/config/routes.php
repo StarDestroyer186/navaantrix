@@ -53,6 +53,12 @@ $route['default_controller'] = 'Pages/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['login'] = 'auth/login';
+$route['register'] = 'auth/register'; // Comment this out after creating initial admin
+$route['create-user'] = 'auth/create_user'; // Comment this out after creating initial admin
+$route['process-login'] = 'auth/process_login';
+$route['logout'] = 'auth/logout';
+
 $route['about-us'] = 'pages/about';
 $route['services'] = 'pages/services';
 $route['our-team'] = 'pages/ourTeam';

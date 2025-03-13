@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class COntacts extends MY_Controller {
+class COntacts extends Admin_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('Contacts_model');
