@@ -19,16 +19,16 @@
                           rgb(193, 15, 255) 100%
                         ); "></span> -->
 							<div class="wp-block-cover__inner-container is-layout-constrained wp-block-cover-is-layout-constrained mt-5">
-								<div class="row">
-									<div class="col-md-6 my-auto">
-										<h2 class="innerPageBgText ">About US</h1>
+								<div class="row align-items-center">
+									<div class="col-12 col-md-6 text-center text-md-start">
+										<h2 class="innerPageBgText">About Us</h2>
 									</div>
-									<div class="col-md-6 text-center">
-										<img src="assets/images/About-1.png" alt="About Us" style="max-width: 75%; height: auto;">
+									<div class="col-12 col-md-6 text-center">
+										<img src="assets/images/About-1.png" alt="About Us" class="img-fluid" style="max-width: 75%;">
 									</div>
 								</div>
-
 							</div>
+
 						</div>
 
 						<div
@@ -48,48 +48,48 @@
 							<h3>Our Values</h3>
 
 							<div class="row about-cards">
-								<div class="col">
-									<div class="card bg-light mb-3" style="max-width: 18rem;">
-										<div class="card-header">
-											<h5 class="card-title" style="margin-bottom:5px !important;">Innovation</h5>
+								<div class="col-12 col-md-6 col-lg-3 mb-3">
+									<div class="card bg-light h-100">
+										<div class="card-header text-center">
+											<h5 class="card-title mb-2">Innovation</h5>
 										</div>
 										<div class="card-body">
-											<p class="card-text">We are committed to updating ourselves on all the latest technologies and constantly find new ways of solving business challenges to deliver great value to our clients. </p>
+											<p class="card-text">We are committed to updating ourselves on all the latest technologies and constantly find new ways of solving business challenges to deliver great value to our clients.</p>
 										</div>
 									</div>
 								</div>
-								<div class="col">
-									<div class="card bg-light mb-3" style="max-width: 18rem;">
-										<div class="card-header">
-											<h5 class="card-title" style="margin-bottom:5px !important;">Integrity</h5>
+								<div class="col-12 col-md-6 col-lg-3 mb-3">
+									<div class="card bg-light h-100">
+										<div class="card-header text-center">
+											<h5 class="card-title mb-2">Integrity</h5>
 										</div>
 										<div class="card-body">
-
-											<p class="card-text">We maintain the highest standards of integrity for every data point from project details to client details. </p>
+											<p class="card-text">We maintain the highest standards of integrity for every data point from project details to client details.</p>
 										</div>
 									</div>
 								</div>
-								<div class="col">
-									<div class="card bg-light mb-3" style="max-width: 18rem;">
-										<div class="card-header">
-											<h5 class="card-title" style="margin-bottom:5px !important;">Inquisitive</h5>
+								<div class="col-12 col-md-6 col-lg-3 mb-3">
+									<div class="card bg-light h-100">
+										<div class="card-header text-center">
+											<h5 class="card-title mb-2">Inquisitive</h5>
 										</div>
 										<div class="card-body">
-											<p class="card-text">We believe in the power of curiosity. </p>
+											<p class="card-text">We believe in the power of curiosity.</p>
 										</div>
 									</div>
 								</div>
-								<div class="col">
-									<div class="card bg-light mb-3" style="max-width: 18rem;">
-										<div class="card-header">
-											<h5 class="card-title" style="margin-bottom:5px !important;">Integration</h5>
+								<div class="col-12 col-md-6 col-lg-3 mb-3">
+									<div class="card bg-light h-100">
+										<div class="card-header text-center">
+											<h5 class="card-title mb-2">Integration</h5>
 										</div>
 										<div class="card-body">
-											<p class="card-text">We believe in the power of collaboration with our clients and other technology stakeholders. </p>
+											<p class="card-text">We believe in the power of collaboration with our clients and other technology stakeholders.</p>
 										</div>
 									</div>
 								</div>
 							</div>
+
 						</div>
 
 						<div

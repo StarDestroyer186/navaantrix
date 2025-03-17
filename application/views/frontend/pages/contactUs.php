@@ -18,16 +18,18 @@
                           rgb(130, 4, 255) 73%,
                           rgb(193, 15, 255) 100%
                         ); "></span> -->
-							<div class="wp-block-cover__inner-container is-layout-constrained wp-block-cover-is-layout-constrained">
-								<br>
-								<div class="row">
-									<div class="col-md-6 my-auto">
-										<h2 class="innerPageBgText ">Contact Us</h1>
+							<div class="wp-block-cover__inner-container is-layout-constrained wp-block-cover-is-layout-constrained py-5">
+								<div class="container">
+									<div class="row text-center">
+										<!-- Text Section -->
+										<div class="col-12 my-auto">
+											<h2 class="innerPageBgText">Contact Us</h2>
+										</div>
+										<!-- Image Section -->
+										<div class="col-12 text-center">
+											<img src="assets/images/Contact-us.gif" alt="Contact Us" class="img-fluid" style="max-width: 65%;">
+										</div>
 									</div>
-									<div class="col-md-6 text-center">
-										<img src="assets/images/Contact-us.gif" alt="contact Us" style="max-width: 65%; height: auto;">
-									</div>
-									<!-- <h2 class="innerPageBgText">Contact US</h1> -->
 								</div>
 							</div>
 						</div>
@@ -175,15 +177,15 @@
 </div>
 
 <script>
-	document.addEventListener("DOMContentLoaded", function () {
-		document.getElementById("contact-form").addEventListener("submit", function (e) {
+	document.addEventListener("DOMContentLoaded", function() {
+		document.getElementById("contact-form").addEventListener("submit", function(e) {
 			e.preventDefault(); // Prevent default form submission
 
 			var xhr = new XMLHttpRequest();
 			xhr.open("POST", "<?php echo base_url('submit_contact'); ?>", true);
 			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-			xhr.onreadystatechange = function () {
+			xhr.onreadystatechange = function() {
 				if (xhr.readyState === 4) {
 					if (xhr.status === 200) {
 						var response = JSON.parse(xhr.responseText);
