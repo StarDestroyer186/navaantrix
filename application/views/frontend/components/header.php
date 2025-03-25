@@ -110,7 +110,7 @@
                               </li>
                               <li id="menu-item-278"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-278">
-                                <a href="<?= base_url('/blog') ?>" class="menu-link">Blog</a>
+                                <a href="<?= base_url('/blog') ?>" class="menu-link">Blogs</a>
                               </li>
                               <li id="menu-item-276"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-276">
@@ -280,6 +280,9 @@
                       </li>
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-278">
                         <a href="<?= base_url('about-us') ?>" class="menu-link">About Us</a>
+                      </li>
+											<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-278">
+                        <a href="<?= base_url('/blog') ?>" class="menu-link">Blogs</a>
                       </li>
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-276">
                         <a href="<?= base_url('services') ?>" class="menu-link">Services</a>
